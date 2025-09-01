@@ -24,29 +24,29 @@ const Hero = () => {
             Qumyra
           </h1>
           <p className="text-xl md:text-2xl mb-2 opacity-90">
-            Premium Dining Experience
+            Премиальный ресторан
           </p>
           <p className="text-lg md:text-xl opacity-80 mb-8">
-            Atyrau, Kazakhstan
+            Атырау, Казахстан
           </p>
         </div>
 
         <div className="mb-12">
           <p className="text-lg md:text-xl leading-relaxed opacity-90 max-w-3xl mx-auto">
-            Welcome to Qumyra, where culinary excellence meets elegant ambiance. 
-            Experience the finest flavors crafted with passion and served with distinction 
-            in the heart of Atyrau.
+            Добро пожаловать в Qumyra, где кулинарное мастерство встречается с элегантной атмосферой. 
+            Насладитесь изысканными вкусами, приготовленными с страстью и поданными с отличием 
+            в самом сердце Атырау.
           </p>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button variant="premium" size="lg" className="text-lg px-8 py-3">
             <Calendar className="h-5 w-5" />
-            Reserve a Table
+            Забронировать стол
           </Button>
           <Button variant="outline" size="lg" className="text-lg px-8 py-3 bg-background/20 backdrop-blur-sm border-primary-foreground/30 text-primary-foreground hover:bg-background/30">
             <Phone className="h-5 w-5" />
-            Order a Call
+            Заказать звонок
           </Button>
         </div>
       </div>

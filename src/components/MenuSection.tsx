@@ -12,17 +12,17 @@ const MenuSection = () => {
   const [selectedCategory, setSelectedCategory] = useState<MenuCategory | "all">("all");
 
   const categories = [
-    { id: "all", label: "All" },
-    { id: "snacks", label: "Snacks" },
-    { id: "soups", label: "Soups" },
-    { id: "meat", label: "Meat" },
-    { id: "fish", label: "Fish" },
-    { id: "chicken", label: "Chicken" },
-    { id: "pasta", label: "Pasta" },
-    { id: "desserts", label: "Desserts" },
-    { id: "cocktails", label: "Cocktails" },
-    { id: "juices", label: "Juices" },
-    { id: "tea", label: "Tea & Coffee" },
+    { id: "all", label: "Все" },
+    { id: "snacks", label: "Закуски" },
+    { id: "soups", label: "Супы" },
+    { id: "meat", label: "Мясо" },
+    { id: "fish", label: "Рыба" },
+    { id: "chicken", label: "Курица" },
+    { id: "pasta", label: "Паста" },
+    { id: "desserts", label: "Десерты" },
+    { id: "cocktails", label: "Коктейли" },
+    { id: "juices", label: "Соки" },
+    { id: "tea", label: "Чай и кофе" },
   ] as const;
 
   const filteredDishes = menuData.filter((dish) => {
@@ -37,11 +37,11 @@ const MenuSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-elegant text-4xl md:text-5xl font-bold text-accent mb-4">
-            Our Menu
+            Наше меню
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Discover our carefully curated selection of dishes, each crafted with the finest ingredients 
-            and attention to detail.
+            Откройте для себя наш тщательно подобранный ассортимент блюд, каждое из которых приготовлено 
+            из лучших ингредиентов с особым вниманием к деталям.
           </p>
         </div>
 
@@ -51,7 +51,7 @@ const MenuSection = () => {
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
             <Input
               type="text"
-              placeholder="Search dishes..."
+              placeholder="Поиск блюд..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="pl-10 bg-background/80 backdrop-blur-sm"
@@ -86,7 +86,7 @@ const MenuSection = () => {
                 {dish.isPopular && (
                   <Badge className="absolute top-3 left-3 bg-primary text-primary-foreground">
                     <Star className="h-3 w-3 mr-1" />
-                    Popular
+                    Популярное
                   </Badge>
                 )}
               </div>
@@ -103,7 +103,7 @@ const MenuSection = () => {
 
         {filteredDishes.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-muted-foreground text-lg">No dishes found matching your search.</p>
+            <p className="text-muted-foreground text-lg">Блюда по вашему запросу не найдены.</p>
           </div>
         )}
       </div>

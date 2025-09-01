@@ -8,11 +8,11 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-elegant text-4xl md:text-5xl font-bold text-accent mb-4">
-            Visit Us
+            Посетите нас
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Experience the warmth of Qumyra. We're located in the heart of Atyrau, 
-            ready to serve you an unforgettable dining experience.
+            Почувствуйте тепло Qumyra. Мы находимся в самом сердце Атырау, 
+            готовы подарить вам незабываемый гастрономический опыт.
           </p>
         </div>
 
@@ -26,11 +26,11 @@ const Contact = () => {
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-accent mb-2">Address</h3>
+                    <h3 className="font-semibold text-lg text-accent mb-2">Адрес</h3>
                     <p className="text-muted-foreground">
-                      Atyrau, Kazakhstan<br />
-                      Premier District<br />
-                      Downtown Area
+                      Атырау, Казахстан<br />
+                      Премиум район<br />
+                      Центр города
                     </p>
                   </div>
                 </div>
@@ -44,11 +44,11 @@ const Contact = () => {
                     <Phone className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-accent mb-2">Phone</h3>
+                    <h3 className="font-semibold text-lg text-accent mb-2">Телефон</h3>
                     <p className="text-muted-foreground mb-3">+7 (7122) 50-XX-XX</p>
                     <Button variant="premium" size="sm">
                       <Phone className="h-4 w-4" />
-                      Call Now
+                      Позвонить
                     </Button>
                   </div>
                 </div>
@@ -62,11 +62,11 @@ const Contact = () => {
                     <Clock className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-accent mb-2">Opening Hours</h3>
+                    <h3 className="font-semibold text-lg text-accent mb-2">Часы работы</h3>
                     <div className="text-muted-foreground space-y-1">
-                      <p>Monday - Thursday: 12:00 - 23:00</p>
-                      <p>Friday - Saturday: 12:00 - 01:00</p>
-                      <p>Sunday: 12:00 - 22:00</p>
+                      <p>Понедельник - Четверг: 12:00 - 23:00</p>
+                      <p>Пятница - Суббота: 12:00 - 01:00</p>
+                      <p>Воскресенье: 12:00 - 22:00</p>
                     </div>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ const Contact = () => {
                     <Instagram className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-accent mb-2">Follow Us</h3>
+                    <h3 className="font-semibold text-lg text-accent mb-2">Подписывайтесь</h3>
                     <Button variant="outline" size="sm">
                       <Instagram className="h-4 w-4" />
                       @qumyra_atyrau
@@ -94,28 +94,28 @@ const Contact = () => {
           {/* Call to Action */}
           <div className="space-y-8">
             <div className="bg-gradient-primary p-8 rounded-2xl text-center text-primary-foreground shadow-elegant">
-              <h3 className="font-elegant text-3xl font-bold mb-4">Reserve Your Table</h3>
+              <h3 className="font-elegant text-3xl font-bold mb-4">Забронируйте столик</h3>
               <p className="text-lg opacity-90 mb-6">
-                Secure your spot at Qumyra and let us create an exceptional 
-                dining experience just for you.
+                Обеспечьте себе место в Qumyra и позвольте нам создать исключительный 
+                гастрономический опыт специально для вас.
               </p>
               <Button variant="elegant" size="lg" className="w-full mb-4">
                 <Calendar className="h-5 w-5" />
-                Reserve a Table
+                Забронировать стол
               </Button>
               <Button variant="outline" size="lg" className="w-full bg-background/20 backdrop-blur-sm border-primary-foreground/30 text-primary-foreground hover:bg-background/30">
                 <Phone className="h-5 w-5" />
-                Order a Call
+                Заказать звонок
               </Button>
             </div>
 
             <div className="text-center p-6 bg-secondary/30 rounded-xl">
-              <h4 className="font-semibold text-lg text-accent mb-3">Special Events</h4>
+              <h4 className="font-semibold text-lg text-accent mb-3">Особые мероприятия</h4>
               <p className="text-muted-foreground mb-4">
-                Host your special occasions at Qumyra. Perfect for celebrations, 
-                business dinners, and private events.
+                Проводите ваши особые торжества в Qumyra. Идеально подходит для празднований, 
+                деловых ужинов и частных мероприятий.
               </p>
-              <Button variant="outline">Contact for Events</Button>
+              <Button variant="outline">Связаться по поводу мероприятий</Button>
             </div>
           </div>
         </div>

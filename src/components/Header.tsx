@@ -7,10 +7,10 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    { label: "Home", href: "#home" },
-    { label: "Menu", href: "#menu" },
-    { label: "About", href: "#about" },
-    { label: "Contact", href: "#contact" },
+    { label: "Главная", href: "#home" },
+    { label: "Меню", href: "#menu" },
+    { label: "О нас", href: "#about" },
+    { label: "Контакты", href: "#contact" },
   ];
 
   return (
@@ -40,10 +40,10 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-3">
             <Button variant="outline" size="sm">
               <Phone className="h-4 w-4" />
-              Call
+              Позвонить
             </Button>
             <Button variant="premium" size="sm">
-              Reserve Table
+              Забронировать стол
             </Button>
           </div>
 
@@ -75,10 +75,10 @@ const Header = () => {
               <div className="flex flex-col space-y-2 pt-3">
                 <Button variant="outline" size="sm">
                   <Phone className="h-4 w-4" />
-                  Call
+                  Позвонить
                 </Button>
                 <Button variant="premium" size="sm">
-                  Reserve Table
+                  Забронировать стол
                 </Button>
               </div>
             </nav>
