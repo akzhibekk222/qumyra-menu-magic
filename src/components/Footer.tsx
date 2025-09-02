@@ -1,5 +1,5 @@
 import { Phone, MapPin, Instagram, Clock } from "lucide-react";
-import qumyraLogo from "@/assets/qumyra-logo.png";
+import qumyraLogo from "@/assets/qumyra_logo.jpg";
 
 const Footer = () => {
   return (
