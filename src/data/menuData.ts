@@ -1,6 +1,14 @@
 import { Dish } from "@/types/menu";
-import steakImage from "@/assets/dishes/steak.jpg";
-import soupImage from "@/assets/dishes/soup.jpg";
+
+import bulkiImage from "@/assets/dishes/bulki.jpg";
+import burgerFriesImage from "@/assets/dishes/burger_fries.jpg";
+import guiruLagmanImage from "@/assets/dishes/guiru_lagman.jpg";
+import jarenyieMantyImage from "@/assets/dishes/jarenyie_manty.jpg";
+import kartoshkaImage from "@/assets/dishes/kartoshka.jpg";
+import parenyieMantyImage from "@/assets/dishes/parenyie_manty.jpg";
+import quyrdaqShorpaImage from "@/assets/dishes/quyrdaq_shorpa.jpg";
+import sorpaImage from "@/assets/dishes/sorpa.jpg";
+import sorpa2Image from "@/assets/dishes/sorpa2.jpg";
 
 export const menuData: Dish[] = [
   // Snacks
@@ -9,7 +17,7 @@ export const menuData: Dish[] = [
     name: "Казахская сырная тарелка",
     description: "Традиционные казахстанские сыры с медом и орехами",
     price: 3500,
-    image: steakImage,
+    image: bulkiImage,
     category: "snacks",
     isPopular: true,
   },
@@ -18,7 +26,7 @@ export const menuData: Dish[] = [
     name: "Канапе с копченым лососем",
     description: "Свежий лосось на хрустящем хлебе с кремовым сыром и укропом",
     price: 4200,
-    image: steakImage,
+    image: burgerFriesImage,
     category: "snacks",
   },
   {
@@ -26,7 +34,7 @@ export const menuData: Dish[] = [
     name: "Карпаччо из говядины",
     description: "Тонко нарезанная говядина с рукколой, пармезаном и трюфельным маслом",
     price: 4800,
-    image: steakImage,
+    image: bulkiImage,
     category: "snacks",
   },
 
@@ -36,7 +44,7 @@ export const menuData: Dish[] = [
     name: "Шурпа",
     description: "Традиционный казахстанский суп с бараниной и овощами",
     price: 2800,
-    image: soupImage,
+    image: sorpaImage,
     category: "soups",
     isPopular: true,
   },
@@ -45,7 +53,7 @@ export const menuData: Dish[] = [
     name: "Грибной биск",
     description: "Кремовый суп из лесных грибов с трюфельными сливками",
     price: 3200,
-    image: soupImage,
+    image: sorpa2Image,
     category: "soups",
   },
   {
@@ -53,7 +61,7 @@ export const menuData: Dish[] = [
     name: "Рыбный суп",
     description: "Свежий каспийский рыбный суп с травами и овощами",
     price: 3600,
-    image: soupImage,
+    image: sorpaImage,
     category: "soups",
   },
 
@@ -63,7 +71,7 @@ export const menuData: Dish[] = [
     name: "Стейк Вагю",
     description: "Премиальный стейк вагю, жаренный до совершенства с сезонными овощами",
     price: 12000,
-    image: steakImage,
+    image: guiruLagmanImage,
     category: "meat",
     isPopular: true,
   },
@@ -72,7 +80,7 @@ export const menuData: Dish[] = [
     name: "Каре ягненка",
     description: "Каре ягненка в травяной корочке с розмариновым соусом",
     price: 8500,
-    image: steakImage,
+    image: guiruLagmanImage,
     category: "meat",
   },
   {
@@ -80,7 +88,7 @@ export const menuData: Dish[] = [
     name: "Бешбармак Премиум",
     description: "Традиционное казахстанское блюдо с премиальной кониной и лапшой",
     price: 6800,
-    image: steakImage,
+    image: guiruLagmanImage,
     category: "meat",
   },
 
@@ -90,7 +98,7 @@ export const menuData: Dish[] = [
     name: "Каспийский осетр",
     description: "Жареный каспийский осетр с лимонно-сливочным соусом",
     price: 9500,
-    image: steakImage,
+    image: burgerFriesImage,
     category: "fish",
     isPopular: true,
   },
@@ -99,7 +107,7 @@ export const menuData: Dish[] = [
     name: "Филе лосося",
     description: "Жареный лосось с киноа и спаржей",
     price: 7200,
-    image: steakImage,
+    image: bulkiImage,
     category: "fish",
   },
 
@@ -109,7 +117,7 @@ export const menuData: Dish[] = [
     name: "Цыпленок табака",
     description: "Традиционный грузинский цыпленок под прессом с травами",
     price: 5800,
-    image: steakImage,
+    image: jarenyieMantyImage,
     category: "chicken",
   },
   {
@@ -117,7 +125,7 @@ export const menuData: Dish[] = [
     name: "Куриная грудка премиум",
     description: "Фаршированная куриная грудка с грибным кремовым соусом",
     price: 6200,
-    image: steakImage,
+    image: parenyieMantyImage,
     category: "chicken",
   },
 
@@ -127,7 +135,7 @@ export const menuData: Dish[] = [
     name: "Паста с трюфелем",
     description: "Свежая паста с черным трюфелем и пармезаном",
     price: 5500,
-    image: steakImage,
+    image: bulkiImage,
     category: "pasta",
   },
   {
@@ -135,7 +143,7 @@ export const menuData: Dish[] = [
     name: "Лингвини с морепродуктами",
     description: "Лингвини с ассорти морепродуктов в белом винном соусе",
     price: 6800,
-    image: steakImage,
+    image: burgerFriesImage,
     category: "pasta",
   },
 
@@ -145,7 +153,7 @@ export const menuData: Dish[] = [
     name: "Мороженое с баурсаками",
     description: "Традиционная казахстанская выпечка с ванильным мороженым",
     price: 2500,
-    image: steakImage,
+    image: bulkiImage,
     category: "desserts",
   },
   {
@@ -153,7 +161,7 @@ export const menuData: Dish[] = [
     name: "Шоколадный фондан",
     description: "Теплый шоколадный кекс с жидкой серединкой и ягодным соусом",
     price: 3200,
-    image: steakImage,
+    image: burgerFriesImage,
     category: "desserts",
     isPopular: true,
   },
@@ -164,7 +172,7 @@ export const menuData: Dish[] = [
     name: "Фирменный коктейль Qumyra",
     description: "Авторский коктейль с премиальной водкой и местным медом",
     price: 2800,
-    image: steakImage,
+    image: bulkiImage,
     category: "cocktails",
     isPopular: true,
   },
@@ -173,7 +181,7 @@ export const menuData: Dish[] = [
     name: "Свежевыжатый апельсиновый сок",
     description: "Натуральный апельсиновый сок",
     price: 1200,
-    image: steakImage,
+    image: kartoshkaImage,
     category: "juices",
   },
   {
@@ -181,7 +189,7 @@ export const menuData: Dish[] = [
     name: "Чай Эрл Грей",
     description: "Премиальный чай Эрл Грей с бергамотом",
     price: 800,
-    image: steakImage,
+    image: quyrdaqShorpaImage,
     category: "tea",
   },
 ];
