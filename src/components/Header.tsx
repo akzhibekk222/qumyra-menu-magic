@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, MessageCircle, Instagram } from "lucide-react";
-import qumyraLogo from "@/assets/qumyra-logo.png";
+import qumyraLogo from "@/assets/qumyra_logo.jpg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
