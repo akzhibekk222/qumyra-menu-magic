@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Phone, Instagram } from "lucide-react";
+import { Menu, X, MessageCircle, Instagram } from "lucide-react";
 import qumyraLogo from "@/assets/qumyra-logo.png";
 
 const Header = () => {
@@ -38,11 +38,12 @@ const Header = () => {
 
           {/* Action Buttons */}
           <div className="hidden md:flex items-center space-x-3">
-            <Button variant="outline" size="sm">
-              <Phone className="h-4 w-4" />
-              Позвонить
-            </Button>
-            <Button variant="premium" size="sm">
+            <Button 
+              variant="premium" 
+              size="sm"
+              onClick={() => window.open('https://wa.me/77757732004?text=Привет, хочу забронировать стол в ресторане Qumyra', '_blank')}
+            >
+              <MessageCircle className="h-4 w-4" />
               Забронировать стол
             </Button>
           </div>
@@ -73,11 +74,12 @@ const Header = () => {
                 </a>
               ))}
               <div className="flex flex-col space-y-2 pt-3">
-                <Button variant="outline" size="sm">
-                  <Phone className="h-4 w-4" />
-                  Позвонить
-                </Button>
-                <Button variant="premium" size="sm">
+                <Button 
+                  variant="premium" 
+                  size="sm"
+                  onClick={() => window.open('https://wa.me/77757732004?text=Привет, хочу забронировать стол в ресторане Qumyra', '_blank')}
+                >
+                  <MessageCircle className="h-4 w-4" />
                   Забронировать стол
                 </Button>
               </div>

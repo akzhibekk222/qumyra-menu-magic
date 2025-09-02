@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Phone, MapPin, Instagram, Clock, Calendar } from "lucide-react";
+import { Phone, MapPin, Instagram, Clock, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -45,11 +45,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-accent mb-2">Телефон</h3>
-                    <p className="text-muted-foreground mb-3">+7 (7122) 50-XX-XX</p>
-                    <Button variant="premium" size="sm">
-                      <Phone className="h-4 w-4" />
-                      Позвонить
-                    </Button>
+                    <p className="text-muted-foreground">+7 (7122) 50-XX-XX</p>
                   </div>
                 </div>
               </CardContent>
@@ -99,13 +95,14 @@ const Contact = () => {
                 Обеспечьте себе место в Qumyra и позвольте нам создать исключительный 
                 гастрономический опыт специально для вас.
               </p>
-              <Button variant="elegant" size="lg" className="w-full mb-4">
-                <Calendar className="h-5 w-5" />
+              <Button 
+                variant="elegant" 
+                size="lg" 
+                className="w-full"
+                onClick={() => window.open('https://wa.me/77757732004?text=Привет, хочу забронировать стол в ресторане Qumyra', '_blank')}
+              >
+                <MessageCircle className="h-5 w-5" />
                 Забронировать стол
-              </Button>
-              <Button variant="outline" size="lg" className="w-full bg-background/20 backdrop-blur-sm border-primary-foreground/30 text-primary-foreground hover:bg-background/30">
-                <Phone className="h-5 w-5" />
-                Заказать звонок
               </Button>
             </div>
 

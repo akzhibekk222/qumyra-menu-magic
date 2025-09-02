@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Calendar } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import restaurantInterior from "@/assets/restaurant-interior.jpg";
 import qumyraLogo from "@/assets/qumyra-logo.png";
 
@@ -40,13 +40,14 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button variant="premium" size="lg" className="text-lg px-8 py-3">
-            <Calendar className="h-5 w-5" />
+          <Button 
+            variant="premium" 
+            size="lg" 
+            className="text-lg px-8 py-3"
+            onClick={() => window.open('https://wa.me/77757732004?text=Привет, хочу забронировать стол в ресторане Qumyra', '_blank')}
+          >
+            <MessageCircle className="h-5 w-5" />
             Забронировать стол
-          </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 py-3 bg-background/20 backdrop-blur-sm border-primary-foreground/30 text-primary-foreground hover:bg-background/30">
-            <Phone className="h-5 w-5" />
-            Заказать звонок
           </Button>
         </div>
       </div>
