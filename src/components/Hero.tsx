@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import restaurantInterior from "@/assets/restaurant-interior.jpg";
-import qumyraLogo from "@/assets/qumyra-logo.png";
+import qumyraLogo from "@/assets/qumyra_logo.jpg";
 
 const Hero = () => {
   return (
